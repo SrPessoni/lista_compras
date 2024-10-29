@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lista_compras/static/css/main.e4ad5005.css",
+    "main.js": "/lista_compras/static/js/main.03828cda.js",
+    "index.html": "/lista_compras/index.html",
+    "main.e4ad5005.css.map": "/lista_compras/static/css/main.e4ad5005.css.map",
+    "main.03828cda.js.map": "/lista_compras/static/js/main.03828cda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4ad5005.css",
+    "static/js/main.03828cda.js"
+  ]
+}
