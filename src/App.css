@@ -51,7 +51,7 @@ form {
 }
 
 input[type="text"] {
-  width: 65%;
+  width: auto;
   color: #ffffff;
   flex: 1;
   padding: 10px;
@@ -81,7 +81,7 @@ button {
 .btn-adicionar {
   color: #ffffff;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid #ccc;
 }
 
 .btn-adicionar:hover {
@@ -120,10 +120,6 @@ li {
   padding: 10px 0;
   border-bottom: 1px solid #ccc;
   width: 100%;
-}
-
-li:last-child {
-  border-bottom: none;
 }
 
 .button-container {
