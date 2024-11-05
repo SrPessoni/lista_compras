@@ -31,7 +31,7 @@ h2 {
   max-width: 800px;
   margin: auto;
   padding: 20px;
-  background: #000000a1 ;
+  background: #000000a1;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
@@ -41,11 +41,11 @@ form {
   justify-content: space-between;
 }
 
-.secaoErro{
+.secaoErro {
   display: flex;
 }
 
-.secaoErro .error-message{
+.secaoErro .error-message {
   color: #d60c1c;
   justify-content: flex-start;
 }
@@ -80,7 +80,7 @@ button {
   background-color: #7c7c7c;
 }
 
-button:hover{
+button:hover {
   background-color: #ffffff;
   color: #000000;
 }
@@ -150,4 +150,111 @@ li {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+}
+
+/* Responsividade */
+
+/* Para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  body {
+    margin: 10%;
+  }
+
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  input[type="text"], button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item-container {
+    flex-direction: column;
+    padding: 8px;
+    width: auto;
+  }
+
+  ul li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  form {
+    width: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+}
+
+/* Para telas de médio porte (tablets) */
+@media (max-width: 768px) {
+  .container {
+    width: 85%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  input[type="text"], button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .item-container {
+    line-height: 5vh;
+    padding: 12px;
+  }
+
+  .button-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul li {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Para telas maiores (desktop) */
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  input[type="text"], button {
+    font-size: 16px;
+    padding: 12px;
+  }
 }
